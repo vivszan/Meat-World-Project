@@ -1,0 +1,43 @@
+{
+  "chart": {
+    "title": "Agricultural area over the long-term",
+    "subtitle": "Total areal land use for agriculture, measured as the combination of land for arable farming (cropland) and grazing in hectares.",
+    "citation": "HYDE (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/total-agricultural-area-over-the-long-term?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Oceania",
+      "Africa",
+      "India",
+      "China",
+      "Asia (excl. China and India)",
+      "Brazil",
+      "South America (excl. Brazil)",
+      "North America",
+      "Russia",
+      "Europe (excl. Russia)"
+    ]
+  },
+  "columns": {
+    "Land use: Agriculture": {
+      "titleShort": "Land use: Agriculture",
+      "titleLong": "Land use: Agriculture",
+      "descriptionShort": "Total agricultural area for each seperate country over time.",
+      "descriptionKey": [
+        "The order of allocation is as follows: first, we allocate cropland, then rice, then irrigation and finally grazing land."
+      ],
+      "descriptionProcessing": "We estimate this indicator by summing cropland and grazingland land areas for each country.",
+      "shortUnit": "ha",
+      "unit": "hectares",
+      "timespan": "-10000-2023",
+      "type": "Numeric",
+      "owidVariableId": 821419,
+      "shortName": "agriculture_c",
+      "lastUpdated": "2024-01-02",
+      "nextUpdate": "2029-06-24",
+      "citationShort": "HYDE (2023) – with minor processing by Our World in Data",
+      "citationLong": "HYDE (2023) – with minor processing by Our World in Data. “Land use: Agriculture” [dataset]. PBL Netherlands Environmental Assessment Agency, “History Database of the Global Environment 3.3” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/821419.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-11-27"
+}
