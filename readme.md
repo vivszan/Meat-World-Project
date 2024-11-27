@@ -1,6 +1,6 @@
-# Agricultural area over the long-term - Data package
+# Obesity in adults - Data package
 
-This data package contains the data that powers the chart ["Agricultural area over the long-term"](https://ourworldindata.org/grapher/total-agricultural-area-over-the-long-term?v=1&csvType=full&useColumnShortNames=false) on the Our World in Data website. It was downloaded on November 27, 2024.
+This data package contains the data that powers the chart ["Obesity in adults"](https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?v=1&csvType=full&useColumnShortNames=false) on the Our World in Data website. It was downloaded on November 27, 2024.
 
 ## CSV Structure
 
@@ -23,35 +23,41 @@ Our World in Data is almost never the original producer of the data - almost all
 ## Detailed information about the data
 
 
-## Land use: Agriculture
-Total agricultural area for each seperate country over time.
-Last updated: January 2, 2024  
-Next update: June 2029  
-Date range: 10000 BCE – 2023 CE  
-Unit: hectares  
+## Prevalence of obesity among adults, BMI >= 30 (crude estimate) (%) - Sex: both sexes - Age group: 18+  years
+Percentage of adults aged 18+ years with a body mass index (BMI) of 30 kg/m2 or higher.
+Last updated: January 3, 2024  
+Next update: January 2025  
+Date range: 1975–2016  
+Unit: %  
 
 
 ### How to cite this data
 
 #### In-line citation
 If you have limited space (e.g. in data visualizations), you can use this abbreviated in-line citation:  
-HYDE (2023) – with minor processing by Our World in Data
+World Health Organization - Global Health Observatory (2024) – processed by Our World in Data
 
 #### Full citation
-HYDE (2023) – with minor processing by Our World in Data. “Land use: Agriculture” [dataset]. PBL Netherlands Environmental Assessment Agency, “History Database of the Global Environment 3.3” [original data].
-Source: HYDE (2023) – with minor processing by Our World In Data
+World Health Organization - Global Health Observatory (2024) – processed by Our World in Data. “Prevalence of obesity among adults, BMI >= 30 (crude estimate) (%) - Sex: both sexes - Age group: 18+  years” [dataset]. World Health Organization, “Global Health Observatory” [original data].
+Source: World Health Organization - Global Health Observatory (2024) – processed by Our World In Data
 
 ### What you should know about this data
-* The order of allocation is as follows: first, we allocate cropland, then rice, then irrigation and finally grazing land.
+
+### How is this data described by its producer - World Health Organization - Global Health Observatory (2024)?
+##### Definition
+Percentage of adults aged 18+ years with a body mass index (BMI) of 30 kg/m2 or higher.
+
+##### Method of measurement
+Based on measured height and weight.
+
+##### Method of estimation
+Input data and methods are described here: NCD-RisC. Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies with 128.9 million participants. Lancet 2017. DOI: http://dx.doi.org/10.1016/S0140-6736(17)32129-3.
 
 ### Source
 
-#### PBL Netherlands Environmental Assessment Agency – History Database of the Global Environment
-Retrieved on: 2024-01-02  
-Retrieved from: https://doi.org/10.24416/UU01-AEZZIT  
-
-#### Notes on our processing step for this indicator
-We estimate this indicator by summing cropland and grazingland land areas for each country.
+#### World Health Organization – Global Health Observatory
+Retrieved on: 2024-01-03  
+Retrieved from: https://www.who.int/data/gho  
 
 
     
